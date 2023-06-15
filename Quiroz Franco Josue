@@ -1,0 +1,13 @@
+#MI PRIMER PROGRAMA
+"""
+AUTOR: Josue Quiroz Franco 
+"""
+CODIGO: C123
+edad=int(input("Ingrese su edad por favor: "))
+if edad>0 and edad<=100:
+if edad>=18:
+print("La persona es mayor de edad")
+else:
+print("La persona no es mayor de edad")
+else:
+print("La edad ingresada no es valido")
